@@ -23,7 +23,8 @@ body {
 	float:left;
 }
 #header_con,#nav_con,#content_con,#bottom_con {
-	width:962px;
+	/*width:962px;*/
+	width:89em;
 	position:absolute;
 	left:50%;
 	margin-left:-481px;
