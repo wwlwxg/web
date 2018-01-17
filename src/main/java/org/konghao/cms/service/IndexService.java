@@ -123,7 +123,7 @@ public class IndexService implements IIndexService {
 		root.put("ts", topics);
 		root.put("pics", indexPicService.listIndexPicByNum(picnum));
 		root.put("keywords", keyworkService.getMaxTimesKeyword(12));
-		root.put("xxgk", topicService.loadLastedTopicByColumn(7));
+		root.put("xxgk", topicService.loadLastedTopicByColumn(2));
 		util.fprint(root, "/body.ftl", outfile);
 	}
 
